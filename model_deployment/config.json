@@ -1,0 +1,13 @@
+{
+  "aws_region": "us-west-2",  
+  "sagemaker_endpoint_name": "your-endpoint-name",
+  "lambda_function_name": "your-lambda-function-name",
+  "lambda_role_arn": "arn:aws:iam::your-aws-account-id:role/your-lambda-role",
+  "s3_bucket_name": "your-s3-bucket-name",
+  "iam_role_for_lambda": "arn:aws:iam::your-aws-account-id:role/your-lambda-role",
+  "model_data_s3_uri": "s3://your-bucket-name/path-to-your-model/model.tar.gz",
+  "code_s3_uri": "s3://your-bucket-name/path-to-your-code/code.zip",
+  "timeout": 300,
+  "memory_size": 1024,
+  "runtime": "python3.8"
+}
